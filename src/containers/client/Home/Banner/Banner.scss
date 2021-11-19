@@ -1,0 +1,32 @@
+.banner {
+    img {
+        height: 75vh;
+        width: 100%;
+    }
+    .slick-dots {
+        bottom: 10px;
+        button::before {
+            color: white;
+            font-size: 15px;
+        }
+        .slick-active {
+            button::before {
+                color: red;
+            }
+        }
+    }
+    .slick-next {
+        right: 25px;
+        height: 20px;
+    }
+    .slick-next::before {
+        font-size: 40px;
+    }
+    .slick-prev {
+        left: 5px;
+        z-index: 10;
+    }
+    .slick-prev::before {
+        font-size: 40px;
+    }
+}

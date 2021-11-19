@@ -1,0 +1,85 @@
+.site-admin-bg{
+    background-color: #fff;
+    padding: 24px;
+    height: 90%;
+}
+.admin-btnAdd{
+    margin-top: 8px;
+    .btnAddMovie{
+        color: #fff;
+        background-color: #ecd60f;
+        padding: 5px 84px;
+        border: none;
+        border-radius: 10px;
+        transition: all .4s;
+        &:hover{
+            background-color: #c01b3c;
+        }
+    }
+}
+.admin-movietrailer{
+    color: #1890ff;
+}
+.admin-dsShowtime{
+    overflow-x: scroll;
+}
+.btnDelete{
+    background-color: red;
+    color: #fff;
+    border: none;
+    margin: 5px;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+.btnUpdate{
+    @extend .btnDelete;
+    background-color: rgb(29, 94, 29);
+}
+.btnShowtime{
+    @extend .btnDelete;
+    background-color:rgb(13, 105, 158) ;
+    &:hover{
+        color: #fff;
+    }
+}
+.invalid-feedback{
+    display: block !important;
+}
+.paginationBttns {
+    margin-top: 12px !important;
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .paginationBttns a {
+    padding: 5px 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #ecd60f;
+    color: #ecd60f;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #ecd60f;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #ecd60f;
+  }
+  
+  .paginationDisabled a {
+    cursor: no-drop;
+  }
+  .modaldelete{
+      top:30% !important;
+      
+  }
+  .modal-backdrop{
+    background-color: rgba(0,0,0,.2) !important;
+}
